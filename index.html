@@ -5,9 +5,14 @@
     <title>Home</title>
   </head>
   <body align="center" background="images/beach.jpg">
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="aboutme.html">About Me</a>
+    
+    <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="aboutme.html">About</a>
+</div>
+    
+  
     <h1>
     <marquee scrollamount="12" behavior="scroll" direction="left">This is my test Home Page!</marquee></h1>
     <h2> <font color="000000"> An image of my home from Google streetview</h2></font>
@@ -16,6 +21,37 @@
     <form action="images/squid.jpg">
     <input type="submit" value="Click here to see the end of the World" />
 </form>
-    <img src="
+    
   </body>
 </html>
+
+<style type="text/css">
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav .active {
+    background-color: #4CAF50;
+    color: white;
+}
